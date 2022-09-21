@@ -1,20 +1,22 @@
 <h4>
   
-```java
+```kotlin
   class MyProfile{
-    private String name = "Rais Zainuri";
-    private int age = 21;
+  
+    private val name = "Rais Zainuri"
+    private val age  = 22
+   
+    private val interest = "Android Dev"
+    private val backEnd  = arrayOf("Java", "Kotlin")
+    private val frontEnd = arrayOf("HTML", "CSS", "XML")
     
-    private String[] interest = { "Android Dev" };
-    private String[] backEnd = { "Java", "Kotlin" }
-    private String[] frontEnd = { "HTML", "CSS", "XML" }
-    
-    public static void main(String[] args){
-      System.out.println(
-        "Hi i'am " + name + "!,
-          i'm " + age + " yo.
-            currently learning more about Java,
-            i'm a freelancer android dev, and Linux enthusiast.");
+    fun main() {
+      print("""
+        Hi i'am $name!,
+        i'm $age yo.
+        currently learning more about Kotlin Android Development, 
+        i'm a freelancer android dev, and Linux enthusiast.
+      """)
     }
   }
 ```
