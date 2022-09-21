@@ -2,7 +2,6 @@
   
 ```kotlin
   class MyProfile{
-  
     private val name = "Rais Zainuri"
     private val age  = 22
    
