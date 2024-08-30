@@ -2,19 +2,15 @@
   
 ```kotlin
   class MyProfile{
-    private val name = "Rais Zainuri"
-    private val age  = 22
-   
-    private val interest = "Android Dev"
-    private val backEnd  = arrayOf("Java", "Kotlin")
-    private val frontEnd = arrayOf("HTML", "CSS", "XML")
-    
+    val name= "Rais Zainuri"
+
     fun main() {
       print("""
-        Hi i'am $name!,
-        i'm $age yo.
-        currently learning more about Kotlin Android Development, 
-        i'm a freelancer android dev, and Linux enthusiast.
+        Hi i'am Rais Zainuri,
+        As Android Developer with over 2+ years of experience and 5 years in Software Development.
+        Proficient in Java and Kotlin programming, and familiar with PHP and C#.
+        Certified Google Associate Android Developer, known for excellent communication skills and effective team collaboration.
+        Adaptable and resilient in dynamic environments.
       """)
     }
   }
